@@ -1,0 +1,14 @@
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springmvc
+    username: root
+    password: 123
+  redis:
+    host: 192.168.111.128
+    port: 6379
+mybatis:
+  config-location: classpath:mybatis/SqlMapConfig.xml
